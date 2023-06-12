@@ -1,6 +1,12 @@
-nav{
+.navbar-navDrop{
     background-color: darkgreen;
     font-size:150%;
     text-align:center;
 }
-nav a{color:gold;}
+.navbar-navItem{color:gold;}
+#inputA{
+    width:50px;
+}
+#inputB{
+    width:49px;
+}
