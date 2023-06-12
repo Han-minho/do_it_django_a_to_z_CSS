@@ -9,13 +9,75 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog</title>
     <link href="./bootstrap5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- 06월 12일 48,55 page   -->
     <link href="/css/practice.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
 </head>
+<!--
+    06월 12일 45 page
+-->
+<!--<style>-->
+<!--     .navbar-navDrop{-->
+<!--        background-color: darkgreen;-->
+<!--        font-size:150%;-->
+<!--        text-align:center;-->
+<!--    }-->
+<!--    .navbar-navItem{color:gold;}-->
+<!--    #inputA{-->
+<!--        width:50px;-->
+<!--    }-->
+<!--    #inputB{-->
+<!--        width:49px;-->
+<!--    }-->
+<!--</style>-->
 <body>
-    <nav class="navbar-navDrop">
-        <a class="navbar-navItem" href="./index.html">Home</a>
-        <a class="navbar-navItem" href="./blog_list.html">Blog</a>
-        <a class="navbar-navItem" href="./about_me.html">About me</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">DO It Django</a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home
+                  <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog_list.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about_me.html">Abot Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+            </ul>
+      </div>
     </nav>
 
     <h1>Blog</h1>

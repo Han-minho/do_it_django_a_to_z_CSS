@@ -8,23 +8,121 @@
           minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+          crossorigin="anonymous">
     <link href="./bootstrap5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- 06월 12일 47,55 page   -->
     <link href="/css/practice.css" rel="stylesheet" type="text/css">
+    <link href="/css/imgSize.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="/js/what_time_is_it.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
 </head>
+<!--
+    06월 12일 44 page
+-->
+<!--<style>-->
+<!--     .navbar-navDrop{-->
+<!--        background-color: darkgreen;-->
+<!--        font-size:150%;-->
+<!--        text-align:center;-->
+<!--    }-->
+<!--    .navbar-navItem{color:gold;}-->
+<!--    #inputA{-->
+<!--        width:50px;-->
+<!--    }-->
+<!--    #inputB{-->
+<!--        width:49px;-->
+<!--    }-->
+<!--</style>-->
 <body>
-    <nav class="navbar-navDrop">
-        <a class="navbar-navItem" href="./index.html">Home</a>
-        <a class="navbar-navItem" href="./blog_list.html">Blog</a>
-        <a class="navbar-navItem" href="./about_me.html">About me</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">DO It Django</a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home
+                  <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog_list.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about_me.html">Abot Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+            </ul>
+      </div>
     </nav>
+    <!--
+        06월 12일 41 page
+     -->
+    <!--
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./blog_list.html">Blog</a>
+            <a href="./about_me.html">About Me</a>
+        </nav>
+    -->
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-9">
+                <h1><strong>about Me</strong></h1>
+                    <h2>서울 사람 한민호입니다.</h2>
+                    <p>HTML, CSS, HS, Django로 재미있는 엡사이트 만들는 것을 좋아합니다.</p>
+                    <button onclick="whatTimeIsIt()">현재시간</button>
+                    <hr/>
+                    <a href="index.html">첫화면으로 가기</a>
+            </div>
+            <div class="col-3">
+                <img src="./images/boy_01.jpg" class="img-fluid w-100">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="col-sm col-lg-6 bg-info img-size-6">
+                <img src="./images/image_a.jpg" class="img-fluid img-page-size">
+            </div>
+            <div class="col-sm col-lg-3 bg-secondary img-size-3">
+                <img src="./images/image_b.jpg" class="img-fluid img-page-size-fold">
+            </div>
+            <div class="col-sm col-lg-3 bg-warning img-size-3">
+                <img src="./images/image_c.jpg" class="img-fluid img-page-size-fold">
+            </div>
+        </div>
 
-    <h1>about Me</h1>
-    <h2>서울 사람 한민호입니다.</h2>
-    <p>HTML, CSS, HS, Django로 재미있는 엡사이트 만들는 것을 좋아합니다.</p>
-    <button onclick="whatTimeIsIt()">현재시간</button>
-    <hr/>
-    <a href="index.html">첫화면으로 가기</a>
-    <img src="./images/boy_01.jpg" height="400px">
+    </div>
 </body>
 </html>
