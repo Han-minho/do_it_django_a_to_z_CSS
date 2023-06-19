@@ -41,3 +41,7 @@
 
 # 06월 15일 ~ 16일
 - techit 동영상 강의로 인해 학습 중단
+
+# 06월 19일
+- 오전 작업 : startBootstrap에서 Boot Home 발췌 무료(Blog Home 수정 연장)
+- 오후 작업 : (Blog Home 수정)
