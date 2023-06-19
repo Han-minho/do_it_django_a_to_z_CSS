@@ -44,4 +44,4 @@
 
 # 06월 19일
 - 오전 작업 : startBootstrap에서 Boot Home 발췌 무료(Blog Home 수정 연장)
-- 오후 작업 : 페이징 작업(Blog Home 수정) - Django 까지
+- 오후 작업 : 페이징 작업 완료, modal(blog_list)에러 해결
