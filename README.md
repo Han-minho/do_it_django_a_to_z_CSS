@@ -44,4 +44,4 @@
 
 # 06월 19일
 - 오전 작업 : startBootstrap에서 Boot Home 발췌 무료(Blog Home 수정 연장)
-- 오후 작업 : (Blog Home 수정)
+- 오후 작업 : 페이징 작업(Blog Home 수정)
